@@ -14,7 +14,7 @@ function App() {
           <h1 className='mb-3'>Background Color Change</h1>
           <div>
             {colors.map(item=>(
-              <button onClick={()=>setColor(item)} key={item} style={{backgroundColor:item}} className='btn mx-2 fw-bolder'>{item}</button>
+              <button onClick={()=>setColor(item)} key={item} style={{backgroundColor:item}} className='btn fw-bolder mx-2 my-1 my-lg-0'>{item}</button>
             ))}
           </div>
         </div>
